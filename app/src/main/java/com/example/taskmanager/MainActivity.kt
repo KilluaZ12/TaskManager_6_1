@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
                 viewModel.addTask(taskTitle, taskDescription)
                 taskAdapter.notifyDataSetChanged()
                 titleEditText.text.clear()
+                descEditText.text.clear()
             }
         }
     }
