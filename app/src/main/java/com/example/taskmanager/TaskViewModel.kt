@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import com.example.taskmanager.model.Task
 
 class TaskViewModel : ViewModel() {
+
     val taskList = mutableListOf<Task>()
 
     fun addTask(title: String, description: String) {

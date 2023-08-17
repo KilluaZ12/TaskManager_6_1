@@ -1,7 +1,6 @@
 package com.example.taskmanager
 
 import android.os.Bundle
-import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -50,6 +49,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
     private fun showDeleteDialog(task: Task) {
         val alertDialog = AlertDialog.Builder(this)
             .setTitle("Delete Task")
